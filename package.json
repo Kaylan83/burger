@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +22,7 @@
     "url": "https://github.com/Kaylan83/burger/issues"
   },
   "homepage": "https://github.com/Kaylan83/burger#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
-    "mysql": "^2.18.1"
-  },
+
   "engines": {
     "node": "12.16.1"
   }
