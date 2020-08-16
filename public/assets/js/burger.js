@@ -1,6 +1,6 @@
 $( ()=> {
 
-
+  // add new burger event
     $("#addBurger").on("submit", function(event) {
         event.preventDefault();
         console.log("I am here");
@@ -23,9 +23,10 @@ $( ()=> {
       });
       
   
-    
+      // devour burger event
       $(".devourBurger").on("click", function(event) {
           event.preventDefault();
+          //get the data id in line 30 from index.handlebars
         var id = $(this).data("id")
         
         var newDevour = true;
